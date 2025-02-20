@@ -1,2 +1,2 @@
-# Sync-cam-proj
+# ProjCamSync
 synchronize camera projecjtor
