@@ -30,7 +30,7 @@ for i in range(len(cam_list)):
     # Begin acquiring images/ capturing images
     camera.BeginAcquisition()
 
-    im = cam_pyspin.capture_im(camera, constants.PIXEL_FORMAT)
+    im = cam_pyspin.capture_im(camera, constants.PIXEL_FORMAT, Trigger=False)
     
     cv_image = (im*65535).astype(np.uint16)
     
